@@ -1,0 +1,7 @@
+package oopKodlamaIoApp.dataAccess;
+
+import oopKodlamaIoApp.entities.Teacher;
+
+public interface TeacherDao {
+    void add(Teacher teacher);
+}
